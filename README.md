@@ -1,3 +1,6 @@
+## Team Members:
+Manasi Chaudhary, Emma Coye, Elizabeth Coats
+
 # Design Choices
 
 We decided to use Semaphores as our main approach to the Dining Philosophers problem. Each fork is represented as a semaphore with only one permit, which means it can only be held by one philosopher at a time. 

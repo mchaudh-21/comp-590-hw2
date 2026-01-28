@@ -19,7 +19,6 @@ public class Philosopher implements Runnable {
         try {
             while (true) {
                 think();
-                // TODO: deadlock and starvation
                 eat();
             }
         } catch (InterruptedException e) {
